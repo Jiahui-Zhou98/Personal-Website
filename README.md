@@ -20,7 +20,7 @@ This project is part of my web development course. Here is the class link:
 
 ## Project Objective
 
-This is a personal website showcasing my background, skills, projects, and hobbies as a Computer Science student at Northeastern University. The website serves as a professional portfolio and personal introduction page.
+This is a personal website showcasing my background, skills, projects, and hobbies as a Computer Science student at Northeastern University. The website serves as a professional portfolio and personal introduction page
 
 ## Screenshot
 
@@ -119,9 +119,9 @@ personal-website/
 - **Styling**: AI helped generate CSS for glass morphism effects
 - **Documentation**: AI assisted in creating this README and documentation
 
-### References
+## References
 
-- Thanks a lot for those fantastic websites and their owners, I really learn a lot from them.
+- Thanks a lot for those fantastic websites and their owners, I really learn a lot from them
 - Beautiful websites: [https://lachlanjc.com/] [https://amankumar.ai/] [https://maxeisen.me/] [https://piraffe.com/] [https://www.boag.online/] [https://antfu.me/] [https://jms.dev/] [https://rafa.design/]
 
 ## License
