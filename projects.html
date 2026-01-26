@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects | Jiahui</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Jiahui Zhou - Computer Science Student at Northeastern University. Interested in software engineering and machine learning. Based in Boston, USA."
+    />
+    <meta name="author" content="Jiahui Zhou" />
+
+    <!-- Open Graph / Facebook -->
+    <!-- remember to change the url and image-->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourwebsite.com/" />
+    <meta property="og:title" content="Jiahui Zhou's Personal Website" />
+    <meta
+      property="og:description"
+      content="Computer Science Student at Northeastern University. Interested in software engineering and machine learning. Based in Boston, USA."
+    />
+    <meta property="og:image" content="./images/open.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Jiahui Zhou's Personal Website" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwebsite.com/" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico" />
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom Styles -->
+    <link href="styles/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Top Navigation -->
+    <nav
+      id="mainNav"
+      class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Jiahui</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navContent"
+          aria-controls="navContent"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navContent"
+        >
+          <ul class="navbar-nav gap-lg-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Projects -->
+    <section id="projects" class="hero">
+      <div class="container">
+        <h1 class="section-title">Projects</h1>
+
+        <div class="row g-4">
+          <div class="col-12">
+            <div class="glass d-flex">
+              <div class="project-image">
+                <img
+                  src="images/projects/movie.png"
+                  alt="Project Two"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="p-4 d-flex flex-column flex-grow-1">
+                <div class="fw-semibold mb-2">Movie Database System</div>
+                <div class="text-muted mb-3 flex-grow-1">
+                  <ul>
+                    <li>
+                      Designed a movie database management system in Python with
+                      MySQL backend, including a normalized database schema with
+                      11 tables, as well as a Tkinter GUI with multiple classes
+                      (e.g., DatabaseConfig, MovieDatabaseGUI).
+                    </li>
+                    <li>
+                      Developed 38 stored procedures to handle all CRUD
+                      operations, searches, and calculations, ensuring data
+                      integrity through foreign key constraints.
+                    </li>
+                    <li>
+                      Implemented comprehensive error handling and input
+                      validation at both application and database levels,
+                      including try-catch blocks throughout the GUI and
+                      validation logic in stored procedures, ensuring
+                      application safety and preventing data corruption.
+                    </li>
+                  </ul>
+                </div>
+                <div class="mt-auto">
+                  <a
+                    class="btn btn-sm btn-outline-light px-3"
+                    target="_blank"
+                    href="https://github.com/Jiahui-Zhou98/Movie_database_project"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="glass d-flex">
+              <div class="project-image">
+                <img
+                  src="images/image.png"
+                  alt="Project Three"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="p-4 d-flex flex-column flex-grow-1">
+                <div class="fw-semibold mb-2">Image Processing Application</div>
+                <div class="text-muted mb-3 flex-grow-1">
+                  <ul>
+                    <li>
+                      Designed and implemented a comprehensive image processing
+                      application in Java supporting multiple image formats
+                      (PPM, BMP, JPEG, PNG) with both command-line and GUI
+                      interfaces, following the Model-View-Controller (MVC)
+                      architecture pattern for clean separation of concerns.
+                    </li>
+                    <li>
+                      Developed robust image manipulation operations including
+                      brightness adjustment, darkening, and six different
+                      greyscale conversion methods (red, green, blue, value,
+                      intensity, and luma components), with immutable image
+                      models ensuring data integrity.
+                    </li>
+                    <li>
+                      Wrote comprehensive JUnit tests for each class and
+                      component.
+                    </li>
+                    <li>
+                      Applied multiple design patterns including Command pattern
+                      for encapsulating operations, Factory pattern for creating
+                      image readers/writers, and Observer pattern for GUI event
+                      handling, emphasizing code readability, flexibility, and
+                      maintainability throughout the development process.
+                    </li>
+                  </ul>
+                </div>
+                <div class="mt-auto">
+                  <a
+                    class="btn btn-sm btn-outline-light px-3"
+                    target="_blank"
+                    href="https://github.com/Jiahui-Zhou98/Image_processing_project"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
