@@ -134,7 +134,11 @@ This website was deployed on GitHub Pages
 
 ## Video Demonstration
 
-Link: []
+See the video demonstration by clicking this link: https://drive.google.com/file/d/18KGGMo7jIc0AbKAkd1MltRiS2zsX_FPK/view?usp=drive_link
+
+## Slides
+
+See slides for this project here: https://docs.google.com/presentation/d/1KW71to-wE99S71C6HTrOjQ7rdq--Sur9yYRPZuiyXSg/edit?usp=sharing
 
 ## Design Document
 
