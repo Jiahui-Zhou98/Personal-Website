@@ -132,6 +132,10 @@ MIT License - see LICENSE file for details
 
 This website was deployed on GitHub Pages
 
-## Video demonstration
+## Video Demonstration
 
 Link: []
+
+## Design Document
+
+- [Design Document](Design%20Document.pdf)
