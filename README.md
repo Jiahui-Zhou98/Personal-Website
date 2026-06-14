@@ -10,13 +10,11 @@ Jiahui Zhou
 
 ## Website Link
 
-You could go to my website by clicking here:
-[https://jiahui-zhou98.github.io/Personal-Website/]
+[Jiahui's Personal Website](https://jiahui-zhou98.github.io/Personal-Website/)
 
 ## Class Link
 
-This project is part of my web development course. Here is the class link:
-[https://johnguerra.co/classes/webDevelopment_online_spring_2026/]
+[Class](https://johnguerra.co/classes/webDevelopment_online_spring_2026/)
 
 ## Project Objective
 
@@ -59,7 +57,7 @@ This is a personal website showcasing my background, skills, projects, and hobbi
 4. **Format code with Prettier**
 
    ```bash
-   npx prettier --write "**/*.{html,css,js}"
+   npm run format
    ```
 
 5. **Open in browser**
@@ -134,11 +132,11 @@ This website was deployed on GitHub Pages
 
 ## Video Demonstration
 
-See the video demonstration by clicking this link: https://drive.google.com/file/d/18KGGMo7jIc0AbKAkd1MltRiS2zsX_FPK/view?usp=drive_link
+[Video](https://drive.google.com/file/d/18KGGMo7jIc0AbKAkd1MltRiS2zsX_FPK/view?usp=drive_link)
 
 ## Slides
 
-See slides for this project here: https://docs.google.com/presentation/d/1KW71to-wE99S71C6HTrOjQ7rdq--Sur9yYRPZuiyXSg/edit?usp=sharing
+[Slides](https://docs.google.com/presentation/d/1KW71to-wE99S71C6HTrOjQ7rdq--Sur9yYRPZuiyXSg/edit?usp=sharing)
 
 ## Design Document
 
