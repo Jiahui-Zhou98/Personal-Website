@@ -76,16 +76,21 @@ This is a personal website showcasing my background, skills, projects, and hobbi
 
 ```
 personal-website/
-├── index.html          # Homepage
-├── projects.html       # Projects page
-├── hobbies.html        # Hobbies page
+├── index.html           # Homepage
+├── projects.html        # Projects page
+├── hobbies.html         # Hobbies page
 ├── styles/
-│   └── main.css       # Custom styles
+│   └── main.css         # Custom styles
 ├── js/
-│   └── main.js        # Custom JavaScript
-├── images/            # Image assets
-├── package.json       # Dependencies
-└── README.md         # This file
+│   └── main.js          # Custom JavaScript (scroll bar, tooltips)
+├── images/              # Image assets
+│   ├── hobbies/         # Hobby & travel photos
+│   ├── projects/        # Project screenshots
+│   ├── screenshots/     # README screenshots
+│   └── draft/           # Design sketches
+├── eslint.config.mjs    # ESLint configuration
+├── package.json         # Scripts & dev dependencies
+└── README.md            # This file
 ```
 
 ## Features
